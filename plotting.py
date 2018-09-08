@@ -1,3 +1,8 @@
+'''
+This python file contains the code for generation of surface graphs of value functions and other statistical graphs.
+This does not include reward function graphs.
+'''
+
 import matplotlib
 import numpy as np
 import pandas as pd
