@@ -34,5 +34,7 @@ Implementation of [Linear Inverse Reinforcement Learning Algorithm](https://ai.s
 
 ### References
 [Denny Britz RL repository for Q-learning algorithm](https://github.com/dennybritz/reinforcement-learning)
+
 [Algorithms for Inverse Reinforcement Learning] (https://ai.stanford.edu/~ang/papers/icml00-irl.pdf)
+
 [Apprenticeship Learning using Inverse reinforcement Learning] (https://ai.stanford.edu/~ang/papers/icml04-apprentice.pdf)
