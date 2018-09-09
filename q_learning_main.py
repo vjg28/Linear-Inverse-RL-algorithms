@@ -258,6 +258,7 @@ def compare_results(env,estimator_f,estimator_dbe,num_test_trajs,epsilon_test=0.
     plt.xlabel("Just for reward visualization.[x axis is nothing]")
     plt.ylabel("Avg Reward")
     plt.show()
-    print("Expert policy score"+" | ",dbe_score)
+    env.close()
+    print("Expert policy score  "+" | ",dbe_score)
     print("Imitator policy score"+" | ",imitator_score)
     return dbe_score, imitator_score
