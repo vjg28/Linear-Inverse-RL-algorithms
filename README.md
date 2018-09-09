@@ -1,7 +1,7 @@
 # Inverse Reinforcement Learning
 Implementation of [Linear Inverse Reinforcement Learning Algorithm](https://ai.stanford.edu/~ang/papers/icml00-irl.pdf) (IRL) on Mountain Car Environment. Mainly for educational purpose.
 
-### Overview 
+## Overview 
 - The RL domain was developed based on the sole presupposition that `Reward functions are the most succinct, robust and transferable defination of a task.` But, in cases like **robotic manipulations** and **self driving cars**, defining a reward function becomes almost impossible.
 - <img src="images/RL_IRL.jpg" align="center">
 - The first LIRL algorithm was published in a paper [Algorithms for IRL](https://ai.stanford.edu/~ang/papers/icml00-irl.pdf) (Ng & Russel 2000) in which they proposed an iterative algorithm to extract the reward function given optimal/expert behavior policy for obtaining the goal in that particular environment.
@@ -9,12 +9,12 @@ Implementation of [Linear Inverse Reinforcement Learning Algorithm](https://ai.s
 - Following Section 5 of [IRL](https://ai.stanford.edu/~ang/papers/icml00-irl.pdf) paper(Ng & Russel).
 
 
-### LIRL Algorithm Flowchart
+## LIRL Algorithm Flowchart
 <p align="center">
   <img src="images/IRL_algo_layout.png" width="630" height="800">
 </p>
 
-### Implementation 
+## Implementation 
 - #### Expert Policy Generation
     - Used Q-learning algorithm with linear approximators to train the agent for generating expert policy.(This is done as it becomes difficult for humans to generate expert policies in Mountain Car)
 - #### IRL implementation
@@ -28,11 +28,30 @@ Implementation of [Linear Inverse Reinforcement Learning Algorithm](https://ai.s
             - 1) Learnt reward function 
             - 2) Default reward function.
         
-### How to use
+## How to use
 1. ``` git clone ``` the repository.
 2. Execute the jupyter notebook code blocks in order.
+3. The notebook is explained in a very detailed manner for gaining deeper understanding into the code and results. Improvements and future work are desribed in the notebook.
 
-### References
+## Dependencies
+- Scikit Learn
+- Gym
+- Scipy
+- Numpy
+- MatPlotLib
+
+Install them using [pip](https://pip.pypa.io/en/stable/)
+
+## Contributing 
+Please feel free to create a Pull Request for adding implementations of the IRL algorithms and improvements. If you are a beginner, you can refer to [this](https://opensource.guide/how-to-contribute/) for getting started.
+
+## Support
+If you found this useful, please consider starring(★) the repo so that it can reach a broader audience.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](../master/LICENSE) file for details.
+
+## References
 - [Denny Britz RL repository for Q-learning algorithm](https://github.com/dennybritz/reinforcement-learning)
 - [Algorithms for Inverse Reinforcement Learning](https://ai.stanford.edu/~ang/papers/icml00-irl.pdf)
 - [Apprenticeship Learning using Inverse reinforcement Learning](https://ai.stanford.edu/~ang/papers/icml04-apprentice.pdf)
