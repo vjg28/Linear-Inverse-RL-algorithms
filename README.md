@@ -1,5 +1,5 @@
 # Inverse Reinforcement Learning
-Implementation of [Linear Inverse Reinforcement Learning Algorithm](https://ai.stanford.edu/~ang/papers/icml00-irl.pdf) (IRL) on Mountain Car Environment. Mainly for educational purpose.
+Implementation of [Linear Inverse Reinforcement Learning Algorithm](https://ai.stanford.edu/~ang/papers/icml00-irl.pdf) (IRL) on Mountain Car Environment. Mainly for experimental & educational purposes.
 
 ## Overview 
 - The RL domain was developed based on the sole presupposition that `Reward functions are the most succinct, robust and transferable defination of a task.` But, in cases like **robotic manipulations** and **self driving cars**, defining a reward function becomes almost impossible.
