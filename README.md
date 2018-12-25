@@ -36,7 +36,7 @@ Implementation of [Linear Inverse Reinforcement Learning Algorithm](https://ai.s
 - Numpy
 - MatPlotLib
 
-Install them using [pip](https://pip.pypa.io/en/stable
+Install them using [pip](https://pip.pypa.io/en/stable)
 
 ## Contributing 
 Please feel free to create a Pull Request for adding implementations of the IRL algorithms and improvements. If you are a beginner, you can refer to [this](https://opensource.guide/how-to-contribute/) for getting started.
