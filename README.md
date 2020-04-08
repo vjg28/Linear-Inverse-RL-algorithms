@@ -2,7 +2,7 @@
 Implementation of [Linear Inverse Reinforcement Learning Algorithm](https://ai.stanford.edu/~ang/papers/icml00-irl.pdf) (IRL) on Mountain Car Environment. Mainly for experimental & educational purposes.
 
 ## Overview 
-- The concept of Reinforcement learning was developed based on the sole presupposition that `Reward functions are the most succinct, robust and transferable defination of a task.` But, in cases like **robotic manipulations** and **self driving cars**, defining a reward function or hand-manifacturing a reward function become difficult or in some cases, almost impossible.<img src="images/RL_IRL.jpg" align="center">
+- The concept of Reinforcement learning was developed based on the sole presupposition that `Reward functions are the most succinct, robust and transferable defination of a task.` But, in cases like **robotic manipulations** and **self driving cars**, defining a reward function or hand-manifacturing a reward function become difficult or in some cases, almost impossible.  <img src="images/RL_IRL.jpg" align="center">
 - The first LIRL algorithm was published in a paper [Algorithms for IRL](https://ai.stanford.edu/~ang/papers/icml00-irl.pdf) (Ng & Russel 2000) in which they proposed an iterative algorithm to extract the reward function given optimal/expert behavior policy for obtaining the goal in that particular environment.
 - This code is an attempt to test IRL algorithm on Mountain Car environment given ```m``` expert trajectories. 
 - Following Section 5 of [IRL](https://ai.stanford.edu/~ang/papers/icml00-irl.pdf) paper(Ng & Russel).
